@@ -54,7 +54,6 @@ component "vpc" {
   source = "./aws-vpc"
 
   inputs = {
-    region    = each.value
     vpc_name = var.vpc_name
     vpc_cidr = var.vpc_cidr
   }
